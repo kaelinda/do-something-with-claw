@@ -77,11 +77,12 @@
 
 ---
 
-### 📚 学习辅助 (2 个)
+### 📚 学习辅助 (3 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [塑造 Agent 的灵魂](learning/soul-shaping-real.md) | 7 个真实 SOUL.md 文件 | 基于 OpenClaw 真实工作空间 |
+| [有意思的 SOUL.md 收录](learning/interesting-soul-collection.md) | 5 个真实 SOUL.md | 产品经理、开发者、镜子、分析师、通用助理 |
 | [创建每日自动写日记的 Agent](learning/mirror-agent-diary.md) | workspace-mirror | 真实运行的日记 Agent |
 
 ---
@@ -112,8 +113,8 @@
 
 ## 统计
 
-- **真实案例**：11 个（不含模板文件）
-- **草稿**：44 个
+- **真实案例**：14 个（不含模板文件）
+- **草稿**：42 个
 - **更新时间**：2026-03-25
 
 ---
