@@ -416,16 +416,19 @@ novel-project/
 
 ## 十、配套文件建议
 
-如果你要把这个继续沉淀成仓库模板，下一步建议补：
+我已经补了 4 个核心 prompt 模板，可直接复用：
+
+- `content-creation/prompts/chapter-planner.md`
+- `content-creation/prompts/chapter-writer.md`
+- `content-creation/prompts/character-reviewer.md`
+- `content-creation/prompts/continuity-reviewer.md`
+
+下一步如果继续沉淀成完整仓库模板，建议再补：
 
 - `templates/outline-template.md`
 - `templates/character-review-template.md`
 - `templates/continuity-review-template.md`
 - `templates/state-template.md`
-- `prompts/chapter-planner.md`
-- `prompts/chapter-writer.md`
-- `prompts/character-reviewer.md`
-- `prompts/continuity-reviewer.md`
 
 ---
 

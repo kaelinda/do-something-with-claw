@@ -21,6 +21,7 @@
 - [播客脚本生成](content-creation/podcast-script.md) - 单口播客、访谈播客、专题播客脚本
 - [Agent Teams 自动写小说（真实开源案例）](content-creation/agent-teams-novel-writing.md) - 基于 GitHub 开源 multi-agent 小说工作流整理
 - [OpenClaw 版 Agent Teams 自动写小说（可执行方案）](content-creation/openclaw-agent-teams-novel-workflow.md) - 主 Agent + 4 子 Agent 的可落地工作流
+- [小说工作流 Prompt 模板](content-creation/prompts/chapter-planner.md) - 含章节规划、正文写作、人物审查、连续性审查 4 个模板
 
 ### 💻 开发辅助 (8 个)
 - [使用 Codex 自动编写代码](development/codex-coding.md) - 让 OpenAI Codex 自动编写代码、修复 bug
