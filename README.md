@@ -23,6 +23,7 @@
 - [OpenClaw 版 Agent Teams 自动写小说（可执行方案）](content-creation/openclaw-agent-teams-novel-workflow.md) - 主 Agent + 4 子 Agent 的可落地工作流
 - [小说工作流 Prompt 模板](content-creation/prompts/chapter-planner.md) - 含章节规划、正文写作、人物审查、连续性审查 4 个模板
 - [小说工作流输出模板](content-creation/templates/outline-template.md) - 含章节大纲、人物审查、连续性审查、状态回写 4 个模板
+- [小说工作流总控编排](content-creation/orchestrator/novel-master-agent.md) - 主 Agent 调度流程与决策树
 
 ### 💻 开发辅助 (8 个)
 - [使用 Codex 自动编写代码](development/codex-coding.md) - 让 OpenAI Codex 自动编写代码、修复 bug
