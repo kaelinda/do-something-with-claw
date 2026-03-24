@@ -2,6 +2,41 @@
 
 > 收集大家用 OpenClaw 做什么的开源仓库。
 
+## 快速导航
+
+### 🤖 自动化 (4 个)
+- [自动收集 GitHub 主题](automation/collect-github-themes.md) - 让 OpenClaw 自动搜索下载开源主题
+- [每日自动写日记](automation/mirror-daily-diary.md) - 创建每天午夜自动写日记的 Agent
+- [博客/RSS 监控更新](automation/blog-watcher.md) - 监控博客和 RSS 源的更新
+- [自动更新 Clawdbot 和技能](automation/auto-updater.md) - 定时自动更新到最新版本
+
+### ✍️ 内容创作 (1 个)
+- [自动生成自媒体内容](content-creation/auto-generate-content.md) - 支持公众号、小红书、抖音文案
+
+### 💻 开发辅助 (1 个)
+- [自动审查 GitHub Issues 并提交 PR](development/auto-review-issues.md) - 自动修复 bug 并提交
+
+### 📊 数据分析 (2 个)
+- [数据报告生成](data-analysis/data-report.md) - 自动生成数据分析报告
+- [日志分析](data-analysis/log-analysis.md) - 分析系统日志并提取关键信息
+
+### 👤 个人助理 (3 个)
+- [每日总结报告生成](personal-assistant/daily-summary-report.md) - 每天 23:00 自动生成工作总结
+- [邮件草稿生成](personal-assistant/email-draft.md) - 快速生成专业邮件草稿
+- [会议纪要整理](personal-assistant/meeting-minutes.md) - 自动整理会议记录
+
+### 📚 学习辅助 (3 个)
+- [笔记整理与知识管理](learning/note-organize.md) - 使用 Obsidian 整理笔记
+- [论文/文章摘要生成](learning/paper-summary.md) - 快速提取论文要点
+- [代码学习与解释](learning/code-learning.md) - 帮助理解复杂代码
+
+### 🔧 工具集成 (3 个)
+- [飞书文档操作](tools/feishu-integration.md) - 读写飞书文档、多维表格
+- [Obsidian 笔记操作](tools/obsidian-integration.md) - 自动化笔记管理
+- [浏览器自动化](tools/browser-automation.md) - 自动打开网页、截图、填表
+
+---
+
 ## 目录结构
 
 ```
