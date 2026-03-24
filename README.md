@@ -77,6 +77,15 @@
 
 ---
 
+### 📚 学习辅助 (2 个)
+
+| 案例 | 来源 | 说明 |
+|------|------|------|
+| [塑造 Agent 的灵魂](learning/soul-shaping-real.md) | 7 个真实 SOUL.md 文件 | 基于 OpenClaw 真实工作空间 |
+| [创建每日自动写日记的 Agent](learning/mirror-agent-diary.md) | workspace-mirror | 真实运行的日记 Agent |
+
+---
+
 ## 草稿目录
 
 `draft/inspiration/` 存放了约 44 个**待补充真实来源**的案例草稿。
