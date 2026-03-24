@@ -29,10 +29,12 @@
 - [邮件草稿生成](personal-assistant/email-draft.md) - 快速生成专业邮件草稿
 - [会议纪要整理](personal-assistant/meeting-minutes.md) - 自动整理会议记录
 
-### 📚 学习辅助 (3 个)
+### 📚 学习辅助 (5 个)
 - [笔记整理与知识管理](learning/note-organize.md) - 使用 Obsidian 整理笔记
 - [论文/文章摘要生成](learning/paper-summary.md) - 快速提取论文要点
 - [代码学习与解释](learning/code-learning.md) - 帮助理解复杂代码
+- [塑造 Agent 的灵魂（SOUL.md）](learning/soul-shaping.md) - 定义 Agent 的性格、特质、风格
+- [创建不同角色的 Agent](learning/create-agent-roles.md) - 产品经理、开发者、分析师等
 
 ### 🔧 工具集成 (3 个)
 - [飞书文档操作](tools/feishu-integration.md) - 读写飞书文档、多维表格
