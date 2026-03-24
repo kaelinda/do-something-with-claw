@@ -12,7 +12,7 @@
 - [定时备份](automation/scheduled-backup.md) - 自动执行文件、数据库、配置备份
 - [监控告警](automation/alert-monitoring.md) - 系统监控异常自动告警
 
-### ✍️ 内容创作 (7 个)
+### ✍️ 内容创作 (8 个)
 - [自动生成自媒体内容](content-creation/auto-generate-content.md) - 支持公众号、小红书、抖音文案
 - [翻译内容](content-creation/translation.md) - 多语言翻译、术语管理
 - [SEO 优化内容](content-creation/seo-optimization.md) - 关键词优化、Meta 描述生成
@@ -20,6 +20,7 @@
 - [视频脚本生成](content-creation/video-script.md) - 短视频、教学视频、产品解说脚本
 - [播客脚本生成](content-creation/podcast-script.md) - 单口播客、访谈播客、专题播客脚本
 - [Agent Teams 自动写小说（真实开源案例）](content-creation/agent-teams-novel-writing.md) - 基于 GitHub 开源 multi-agent 小说工作流整理
+- [OpenClaw 版 Agent Teams 自动写小说（可执行方案）](content-creation/openclaw-agent-teams-novel-workflow.md) - 主 Agent + 4 子 Agent 的可落地工作流
 
 ### 💻 开发辅助 (8 个)
 - [使用 Codex 自动编写代码](development/codex-coding.md) - 让 OpenAI Codex 自动编写代码、修复 bug

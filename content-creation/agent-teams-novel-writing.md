@@ -165,10 +165,11 @@ my-novel/
 
 ## 对 OpenClaw 的落地改造建议
 
-如果把它改造成 `Do Something with Claw` 案例，我建议这样落地：
+我已经另外补了一篇可直接执行的 OpenClaw 落地方案：
 
-### 方案 A（推荐）
-用 OpenClaw 做“轻量编排版” Agent Teams：
+- [OpenClaw 版 Agent Teams 自动写小说（可执行方案）](openclaw-agent-teams-novel-workflow.md)
+
+核心做法：
 - 主 Agent：总控章节流程
 - 子 Agent 1：章节规划
 - 子 Agent 2：正文写作
@@ -176,13 +177,8 @@ my-novel/
 - 子 Agent 4：连续性检查
 - 主 Agent：汇总意见并出终稿
 
-### 方案 B（不推荐作为第一版）
-完整复刻原仓库的所有模块：
-- 成本高
-- 配置复杂
-- 不利于先验证价值
-
-**我的建议是先做 A，再决定要不要进化到 B。**
+我的建议仍然是：
+**先做轻量编排版，再决定是否演进成更复杂的平台。**
 
 ## 可复用提示词骨架（脱敏版）
 
