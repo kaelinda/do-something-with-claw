@@ -36,10 +36,13 @@
 - [塑造 Agent 的灵魂（SOUL.md）](learning/soul-shaping.md) - 定义 Agent 的性格、特质、风格
 - [创建不同角色的 Agent](learning/create-agent-roles.md) - 产品经理、开发者、分析师等
 
-### 🔧 工具集成 (3 个)
+### 🔧 工具集成 (6 个)
 - [飞书文档操作](tools/feishu-integration.md) - 读写飞书文档、多维表格
 - [Obsidian 笔记操作](tools/obsidian-integration.md) - 自动化笔记管理
 - [浏览器自动化](tools/browser-automation.md) - 自动打开网页、截图、填表
+- [Microsoft Teams 消息发送](tools/teams-integration.md) - 发送消息到 Teams 频道
+- [Teams 会议纪要自动生成](tools/teams-meeting-notes.md) - 自动整理会议纪要
+- [Teams 智能问答机器人](tools/teams-faq-bot.md) - 自动回答常见问题
 
 ---
 
