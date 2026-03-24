@@ -4,14 +4,19 @@
 
 ## 快速导航
 
-### 🤖 自动化 (4 个)
+### 🤖 自动化 (6 个)
 - [自动收集 GitHub 主题](automation/collect-github-themes.md) - 让 OpenClaw 自动搜索下载开源主题
 - [每日自动写日记](automation/mirror-daily-diary.md) - 创建每天午夜自动写日记的 Agent
 - [博客/RSS 监控更新](automation/blog-watcher.md) - 监控博客和 RSS 源的更新
 - [自动更新 Clawdbot 和技能](automation/auto-updater.md) - 定时自动更新到最新版本
+- [定时备份](automation/scheduled-backup.md) - 自动执行文件、数据库、配置备份
+- [监控告警](automation/alert-monitoring.md) - 系统监控异常自动告警
 
-### ✍️ 内容创作 (1 个)
+### ✍️ 内容创作 (4 个)
 - [自动生成自媒体内容](content-creation/auto-generate-content.md) - 支持公众号、小红书、抖音文案
+- [翻译内容](content-creation/translation.md) - 多语言翻译、术语管理
+- [SEO 优化内容](content-creation/seo-optimization.md) - 关键词优化、Meta 描述生成
+- [长文写作](content-creation/long-form-writing.md) - 技术文章、深度分析
 
 ### 💻 开发辅助 (5 个)
 - [使用 Codex 自动编写代码](development/codex-coding.md) - 让 OpenAI Codex 自动编写代码、修复 bug
@@ -20,9 +25,11 @@
 - [并行修复多个 GitHub Issues](development/parallel-issue-fix.md) - 使用 git worktree 并行修复
 - [自动审查 GitHub Issues 并提交 PR](development/auto-review-issues.md) - 自动修复 bug 并提交
 
-### 📊 数据分析 (2 个)
+### 📊 数据分析 (4 个)
 - [数据报告生成](data-analysis/data-report.md) - 自动生成数据分析报告
 - [日志分析](data-analysis/log-analysis.md) - 分析系统日志并提取关键信息
+- [数据可视化](data-analysis/data-visualization.md) - 将数据转换为图表
+- [数据清洗](data-analysis/data-cleaning.md) - 处理缺失值、异常值、去重
 
 ### 👤 个人助理 (3 个)
 - [每日总结报告生成](personal-assistant/daily-summary-report.md) - 每天 23:00 自动生成工作总结
@@ -36,10 +43,13 @@
 - [塑造 Agent 的灵魂（SOUL.md）](learning/soul-shaping.md) - 定义 Agent 的性格、特质、风格
 - [创建不同角色的 Agent](learning/create-agent-roles.md) - 产品经理、开发者、分析师等
 
-### 🔧 工具集成 (6 个)
+### 🔧 工具集成 (9 个)
 - [飞书文档操作](tools/feishu-integration.md) - 读写飞书文档、多维表格
 - [Obsidian 笔记操作](tools/obsidian-integration.md) - 自动化笔记管理
 - [浏览器自动化](tools/browser-automation.md) - 自动打开网页、截图、填表
+- [Notion 笔记操作](tools/notion-integration.md) - 创建笔记、管理数据库
+- [企业微信操作](tools/wechat-work-integration.md) - 发送消息、文件、卡片
+- [Slack 消息发送](tools/slack-integration.md) - 频道消息、私信、交互式消息
 - [Microsoft Teams 消息发送](tools/teams-integration.md) - 发送消息到 Teams 频道
 - [Teams 会议纪要自动生成](tools/teams-meeting-notes.md) - 自动整理会议纪要
 - [Teams 智能问答机器人](tools/teams-faq-bot.md) - 自动回答常见问题
