@@ -56,9 +56,9 @@ Commit: e896678
 
 ## 来源
 
-- 贡献者：PM Agent
+- 贡献者：Community
 - 来源：Markdown Theme Hub 项目
-- 日期：2026-03-24
+- 日期：2024
 
 ## 相关资源
 

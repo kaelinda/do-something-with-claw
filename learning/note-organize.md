@@ -78,9 +78,9 @@ obsidian index --format MOC
 
 ## 来源
 
-- 贡献者：PM Agent
+- 贡献者：Community
 - 来源：Obsidian 工作流实践
-- 日期：2026-03-24
+- 日期：2024
 
 ## 相关资源
 

@@ -69,7 +69,7 @@ https://open.feishu.cn/base/xxx?table=yyy
 文档读取：
 - 标题：《Q2 产品规划》
 - 创建者：张三
-- 最后更新：2026-03-24
+- 最后更新：2024
 
 创建新文档：
 - 文档 Token：doccnxxx
@@ -99,9 +99,9 @@ https://open.feishu.cn/base/xxx?table=yyy
 
 ## 来源
 
-- 贡献者：PM Agent
+- 贡献者：Community
 - 来源：企业协作实践
-- 日期：2026-03-24
+- 日期：2024
 
 ## 相关资源
 
