@@ -423,12 +423,16 @@ novel-project/
 - `content-creation/prompts/character-reviewer.md`
 - `content-creation/prompts/continuity-reviewer.md`
 
-下一步如果继续沉淀成完整仓库模板，建议再补：
+我也已经补了 4 个输出模板：
 
-- `templates/outline-template.md`
-- `templates/character-review-template.md`
-- `templates/continuity-review-template.md`
-- `templates/state-template.md`
+- `content-creation/templates/outline-template.md`
+- `content-creation/templates/character-review-template.md`
+- `content-creation/templates/continuity-review-template.md`
+- `content-creation/templates/state-template.md`
+
+这样现在已经形成两层模板：
+- Prompt 模板：规范 Agent 怎么思考和输出
+- 输出模板：规范 Agent 产物长什么样
 
 ---
 
