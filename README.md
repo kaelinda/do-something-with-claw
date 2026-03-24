@@ -13,7 +13,11 @@
 ### ✍️ 内容创作 (1 个)
 - [自动生成自媒体内容](content-creation/auto-generate-content.md) - 支持公众号、小红书、抖音文案
 
-### 💻 开发辅助 (1 个)
+### 💻 开发辅助 (5 个)
+- [使用 Codex 自动编写代码](development/codex-coding.md) - 让 OpenAI Codex 自动编写代码、修复 bug
+- [使用 Claude Code 自动编写代码](development/claude-code-coding.md) - 让 Anthropic Claude 自动编写代码
+- [并行审查多个 GitHub PR](development/parallel-pr-review.md) - 多个 Codex 实例并行审查 PR
+- [并行修复多个 GitHub Issues](development/parallel-issue-fix.md) - 使用 git worktree 并行修复
 - [自动审查 GitHub Issues 并提交 PR](development/auto-review-issues.md) - 自动修复 bug 并提交
 
 ### 📊 数据分析 (2 个)
