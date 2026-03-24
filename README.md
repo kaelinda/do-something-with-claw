@@ -41,11 +41,12 @@
 
 ---
 
-### 🎨 AI 能力 (5 个)
+### 🎨 AI 能力 (6 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [图像生成](ai-capabilities/image-generation.md) | openai-image-gen skill | OpenClaw 内置技能 |
+| [DALL-E 图像生成详解](ai-capabilities/image-generation-dalle.md) | OpenAI Images API | DALL-E 3 使用指南 |
 | [语音合成](ai-capabilities/speech-synthesis.md) | 内置 tts 工具 | OpenClaw 内置工具 |
 | [语音转文字](ai-capabilities/speech-to-text.md) | Whisper CLI | 本地运行，无需 API Key |
 | [视频帧提取](ai-capabilities/video-frames.md) | video-frames skill | 真实脚本命令 |
@@ -53,11 +54,53 @@
 
 ---
 
-### 🔧 工具集成 (1 个)
+### 🔧 工具集成 (7 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [飞书文档操作](tools/feishu-integration.md) | feishu 技能组 | 真实技能文档 |
+| [浏览器自动化](tools/browser-automation.md) | 内置 browser 工具 | Playwright 底层 |
+| [Obsidian 笔记操作](tools/obsidian-integration.md) | obsidian-cli 技能 | 真实 CLI 工具 |
+| [GitHub 操作自动化](tools/github-integration.md) | github 技能 | gh CLI |
+| [Apple Notes 笔记操作](tools/apple-notes-integration.md) | apple-notes 技能 | macOS 专属 |
+| [Apple Reminders 任务管理](tools/apple-reminders-integration.md) | apple-reminders 技能 | macOS 专属 |
+| [Things 3 任务管理](tools/things-integration.md) | things-mac 技能 | macOS 专属 |
+
+---
+
+### ⚙️ 自动化 (1 个)
+
+| 案例 | 来源 | 说明 |
+|------|------|------|
+| [博客/RSS 监控更新](automation/blog-watcher.md) | blogwatcher 技能 | Go 安装 |
+
+---
+
+### 👤 个人助理 (2 个)
+
+| 案例 | 来源 | 说明 |
+|------|------|------|
+| [每日总结报告生成](personal-assistant/daily-summary-report.md) | OpenClaw 会话记录 | 用户真实需求 |
+| [会议纪要自动生成](personal-assistant/meeting-minutes.md) | OpenClaw + 飞书 | 真实工作流 |
+
+---
+
+### 📊 数据分析 (1 个)
+
+| 案例 | 来源 | 说明 |
+|------|------|------|
+| [日志分析](data-analysis/log-analysis.md) | exec + jq | 内置工具 |
+
+---
+
+### 📚 学习辅助 (4 个)
+
+| 案例 | 来源 | 说明 |
+|------|------|------|
+| [塑造 Agent 的灵魂](learning/soul-shaping-real.md) | 7 个真实 SOUL.md 文件 | 基于 OpenClaw 真实工作空间 |
+| [有意思的 SOUL.md 收录](learning/interesting-soul-collection.md) | 5 个真实 SOUL.md | 产品经理、开发者、镜子、分析师、通用助理 |
+| [创建每日自动写日记的 Agent](learning/mirror-agent-diary.md) | workspace-mirror | 真实运行的日记 Agent |
+| [代码学习与理解](learning/code-learning.md) | OpenClaw read/exec | 内置工具 |
 
 ---
 
@@ -65,11 +108,15 @@
 
 ```
 ├── ai-capabilities/        # AI 能力案例
+├── automation/            # 自动化案例
 ├── content-creation/       # 内容创作案例
 │   ├── prompts/           # Prompt 模板
 │   ├── templates/         # 输出模板
 │   └── orchestrator/      # 总控编排
+├── data-analysis/         # 数据分析案例
 ├── development/           # 开发辅助案例
+├── learning/              # 学习辅助案例
+├── personal-assistant/    # 个人助理案例
 ├── tools/                 # 工具集成案例
 ├── draft/                 # 草稿（待补充真实来源）
 └── README.md
@@ -77,19 +124,9 @@
 
 ---
 
-### 📚 学习辅助 (3 个)
-
-| 案例 | 来源 | 说明 |
-|------|------|------|
-| [塑造 Agent 的灵魂](learning/soul-shaping-real.md) | 7 个真实 SOUL.md 文件 | 基于 OpenClaw 真实工作空间 |
-| [有意思的 SOUL.md 收录](learning/interesting-soul-collection.md) | 5 个真实 SOUL.md | 产品经理、开发者、镜子、分析师、通用助理 |
-| [创建每日自动写日记的 Agent](learning/mirror-agent-diary.md) | workspace-mirror | 真实运行的日记 Agent |
-
----
-
 ## 草稿目录
 
-`draft/inspiration/` 存放了约 44 个**待补充真实来源**的案例草稿。
+`draft/inspiration/` 存放了约 41 个**待补充真实来源**的案例草稿。
 
 这些草稿目前缺少真实开源项目或技能文档引用，未来找到真实来源后会迁移到正式目录。
 
@@ -113,8 +150,8 @@
 
 ## 统计
 
-- **真实案例**：14 个（不含模板文件）
-- **草稿**：42 个
+- **真实案例**：27 个（不含模板文件）
+- **草稿**：41 个
 - **更新时间**：2026-03-25
 
 ---
