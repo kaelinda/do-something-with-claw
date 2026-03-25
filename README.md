@@ -35,7 +35,7 @@
 | [视频脚本生成](content-creation/video-script.md) | OpenClaw + tts | 短视频、教学视频脚本 |
 | [播客脚本生成](content-creation/podcast-script.md) | OpenClaw + tts | 单口、访谈播客脚本 |
 | [长文写作](content-creation/long-form-writing.md) | OpenClaw + gemini | 技术文章、分析报告 |
-| [SEO 优化内容](content-creation/seo-optimization.md) | OpenClaw + web_search | SEO 标题、描述、内容优化 |
+| [SEO 优化内容](content-creation/seo-optimization.md) | OpenClaw + gemini | 关键词优化、Meta 描述 |
 
 ---
 
@@ -63,22 +63,46 @@
 
 ---
 
-### 🔧 工具集成 (14 个)
+### 🔧 工具集成 (22 个)
+
+#### IM 即时通讯 (10 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
-| [飞书文档操作](tools/feishu-integration.md) | feishu 技能组 | 真实技能文档 |
-| [浏览器自动化](tools/browser-automation.md) | 内置 browser 工具 | Playwright 底层 |
-| [Obsidian 笔记操作](tools/obsidian-integration.md) | obsidian-cli 技能 | 真实 CLI 工具 |
+| [飞书消息发送](tools/feishu-message.md) | message 工具 | 飞书 Bot API |
+| [飞书文档操作](tools/feishu-integration.md) | feishu 技能组 | 文档、多维表格、知识库 |
+| [企业微信消息发送](tools/wechat-work-integration.md) | message 工具 | 企业微信 API |
+| [Slack 消息发送](tools/slack-integration.md) | slack 技能 | Slack Bot |
+| [Discord 机器人集成](tools/discord-integration.md) | discord 技能 | Discord Bot |
+| [Telegram 机器人集成](tools/telegram-integration.md) | message 工具 | Telegram Bot API |
+| [iMessage/SMS 消息发送](tools/imessage-integration.md) | imsg 技能 | macOS 专属 |
+| [WhatsApp 消息发送](tools/whatsapp-integration.md) | message 工具 | WhatsApp Business API |
+| [Signal 消息发送](tools/signal-integration.md) | message 工具 | Signal 协议 |
+| [Line 消息发送](tools/line-integration.md) | message 工具 | LINE Messaging API |
+
+#### 社交媒体 (3 个)
+
+| 案例 | 来源 | 说明 |
+|------|------|------|
+| [Twitter/X 发推集成](tools/twitter-integration.md) | xurl 技能 | X API v2 |
+| [小红书内容发布](tools/xiaohongshu-integration.md) | xiaohongshu 技能 | 小红书 MCP |
 | [GitHub 操作自动化](tools/github-integration.md) | github 技能 | gh CLI |
+
+#### 笔记与任务 (5 个)
+
+| 案例 | 来源 | 说明 |
+|------|------|------|
+| [Obsidian 笔记操作](tools/obsidian-integration.md) | obsidian-cli 技能 | 真实 CLI 工具 |
+| [Notion 笔记操作](tools/notion-integration.md) | notion 技能 | Notion API |
 | [Apple Notes 笔记操作](tools/apple-notes-integration.md) | apple-notes 技能 | macOS 专属 |
 | [Apple Reminders 任务管理](tools/apple-reminders-integration.md) | apple-reminders 技能 | macOS 专属 |
 | [Things 3 任务管理](tools/things-integration.md) | things-mac 技能 | macOS 专属 |
-| [Notion 笔记操作](tools/notion-integration.md) | notion 技能 | Notion API |
-| [Slack 消息发送](tools/slack-integration.md) | slack 技能 | Slack Bot |
-| [Twitter/X 发推集成](tools/twitter-integration.md) | xurl 技能 | X API v2 |
-| [Discord 机器人集成](tools/discord-integration.md) | discord 技能 | Discord Bot |
-| [Telegram 机器人集成](tools/telegram-integration.md) | message 工具 | Telegram Bot API |
+
+#### 其他工具 (4 个)
+
+| 案例 | 来源 | 说明 |
+|------|------|------|
+| [浏览器自动化](tools/browser-automation.md) | 内置 browser 工具 | Playwright 底层 |
 | [天气查询](tools/weather-query.md) | weather 技能 | wttr.in |
 | [邮件管理](tools/email-management.md) | himalaya 技能 | IMAP/SMTP |
 | [Trello 卡片管理](tools/trello-integration.md) | trello 技能 | Trello REST API |
@@ -146,7 +170,7 @@
 
 ## 草稿目录
 
-`draft/inspiration/` 存放了约 25 个**待补充真实来源**的案例草稿。
+`draft/inspiration/` 存放了约 20 个**待补充真实来源**的案例草稿。
 
 这些草稿目前缺少真实开源项目或技能文档引用，未来找到真实来源后会迁移到正式目录。
 
@@ -170,8 +194,8 @@
 
 ## 统计
 
-- **真实案例**：43 个（不含模板文件）
-- **草稿**：25 个
+- **真实案例**：51 个（不含模板文件）
+- **草稿**：20 个
 - **更新时间**：2026-03-25
 
 ---
