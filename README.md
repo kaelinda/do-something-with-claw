@@ -68,9 +68,9 @@
 
 ---
 
-### 🔧 工具集成 (23 个)
+### 🔧 工具集成 (26 个)
 
-#### IM 即时通讯 (11 个)
+#### IM 即时通讯 (14 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
@@ -81,6 +81,9 @@
 | [Discord 机器人集成](tools/discord-integration.md) | discord 技能 | Discord Bot |
 | [Discord 机器人高级操作](tools/discord-bot.md) | discord 技能 | 投票、状态、线程等 |
 | [Telegram 机器人集成](tools/telegram-integration.md) | message 工具 | Telegram Bot API |
+| [Microsoft Teams 消息发送](tools/teams-integration.md) | exec + Teams Webhook | Teams Incoming Webhook |
+| [Teams 智能问答机器人](tools/teams-faq-bot.md) | exec + OpenClaw | FAQ 知识库自动回复 |
+| [Teams 会议纪要自动生成](tools/teams-meeting-notes.md) | summarize 技能 | 会议记录整理 |
 | [iMessage/SMS 消息发送](tools/imessage-integration.md) | imsg 技能 | macOS 专属 |
 | [WhatsApp 消息发送](tools/whatsapp-integration.md) | message 工具 | WhatsApp Business API |
 | [Signal 消息发送](tools/signal-integration.md) | message 工具 | Signal 协议 |
@@ -115,7 +118,7 @@
 
 ---
 
-### ⚙️ 自动化 (4 个)
+### ⚙️ 自动化 (5 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
@@ -123,28 +126,31 @@
 | [自动更新 OpenClaw 和技能](automation/auto-updater.md) | auto-updater 技能 | ClawHub |
 | [监控告警](automation/alert-monitoring.md) | healthcheck 技能 | 系统安全审计 |
 | [定时备份](automation/scheduled-backup.md) | rsync + cron | 文件、数据库备份 |
+| [自动收集 GitHub 开源主题](automation/collect-github-themes.md) | github 技能 + gh CLI | 主题搜索与下载 |
 
 ---
 
-### 👤 个人助理 (5 个)
+### 👤 个人助理 (6 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [每日总结报告生成](personal-assistant/daily-summary-report.md) | OpenClaw 会话记录 | 用户真实需求 |
 | [会议纪要自动生成](personal-assistant/meeting-minutes.md) | OpenClaw + 飞书 | 真实工作流 |
 | [邮件草稿生成](personal-assistant/email-draft.md) | OpenClaw + himalaya | 商务邮件 |
+| [记账助手](personal-assistant/expense-tracking.md) | feishu_bitable + obsidian | 飞书/ Obsidian 存储 |
 | [习惯追踪](personal-assistant/habit-tracking.md) | apple-reminders + things-mac | 每日习惯管理 |
 | [目标管理](personal-assistant/goal-management.md) | things-mac 技能 | SMART/OKR 目标管理 |
 
 ---
 
-### 📊 数据分析 (3 个)
+### 📊 数据分析 (4 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [日志分析](data-analysis/log-analysis.md) | exec + jq | 内置工具 |
 | [数据报告生成](data-analysis/data-report.md) | exec + jq + gemini | CSV/JSON 分析 |
 | [数据清洗](data-analysis/data-cleaning.md) | jq + sed/awk | 缺失值、去重、格式化 |
+| [数据可视化](data-analysis/data-visualization.md) | exec + matplotlib/seaborn | Python 可视化库 |
 
 ---
 
@@ -184,7 +190,7 @@
 
 ## 草稿目录
 
-`draft/inspiration/` 存放了约 41 个**待补充真实来源**的案例草稿。
+`draft/inspiration/` 存放了约 35 个**待补充真实来源**的案例草稿。
 
 这些草稿目前缺少真实开源项目或技能文档引用，未来找到真实来源后会迁移到正式目录。
 
@@ -208,8 +214,8 @@
 
 ## 统计
 
-- **真实案例**：63 个（不含模板文件）
-- **草稿**：41 个
+- **真实案例**：69 个（不含模板文件）
+- **草稿**：35 个
 - **更新时间**：2026-03-25
 
 ---
