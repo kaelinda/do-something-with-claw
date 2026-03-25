@@ -15,7 +15,7 @@
 
 ## 快速导航
 
-### ✍️ 内容创作 (1 个完整工作流 + 5 个案例)
+### ✍️ 内容创作 (1 个完整工作流 + 6 个案例)
 
 #### Agent Teams 自动写小说
 基于 GitHub 开源项目整理的完整多 Agent 小说写作工作流：
@@ -31,6 +31,7 @@
 #### 其他
 | 案例 | 来源 | 说明 |
 |------|------|------|
+| [自动生成自媒体内容](content-creation/auto-generate-content.md) | viral-writer 技能 | 小红书、公众号、抖音文案 |
 | [翻译与多语言内容](content-creation/translation.md) | gemini 技能 | 内容翻译、多语言适配 |
 | [视频脚本生成](content-creation/video-script.md) | OpenClaw + tts | 短视频、教学视频脚本 |
 | [播客脚本生成](content-creation/podcast-script.md) | OpenClaw + tts | 单口、访谈播客脚本 |
@@ -39,14 +40,18 @@
 
 ---
 
-### 💻 开发辅助 (4 个)
+### 💻 开发辅助 (8 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [使用 Codex 自动编写代码](development/codex-coding.md) | Codex CLI | 真实命令行工具 |
 | [使用 Claude Code 自动编写代码](development/claude-code-coding.md) | Claude Code CLI | 真实命令行工具 |
+| [自动审查 GitHub Issues 并提交 PR](development/auto-review-issues.md) | gh-issues 技能 | 自动修复 Issues |
 | [并行修复多个 GitHub Issues](development/parallel-issue-fix.md) | git worktree + Codex | 可验证的命令 |
 | [并行审查多个 GitHub PR](development/parallel-pr-review.md) | Codex + gh CLI | 可验证的命令 |
+| [Git 操作自动化](development/git-operations.md) | git CLI + gh CLI | 提交、分支管理、冲突解决 |
+| [Docker 操作自动化](development/docker-operations.md) | Docker CLI | 镜像构建、容器管理 |
+| [CI/CD 集成](development/cicd-integration.md) | GitHub Actions / GitLab CI | 构建测试部署流水线 |
 
 ---
 
@@ -63,9 +68,9 @@
 
 ---
 
-### 🔧 工具集成 (22 个)
+### 🔧 工具集成 (23 个)
 
-#### IM 即时通讯 (10 个)
+#### IM 即时通讯 (11 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
@@ -74,6 +79,7 @@
 | [企业微信消息发送](tools/wechat-work-integration.md) | message 工具 | 企业微信 API |
 | [Slack 消息发送](tools/slack-integration.md) | slack 技能 | Slack Bot |
 | [Discord 机器人集成](tools/discord-integration.md) | discord 技能 | Discord Bot |
+| [Discord 机器人高级操作](tools/discord-bot.md) | discord 技能 | 投票、状态、线程等 |
 | [Telegram 机器人集成](tools/telegram-integration.md) | message 工具 | Telegram Bot API |
 | [iMessage/SMS 消息发送](tools/imessage-integration.md) | imsg 技能 | macOS 专属 |
 | [WhatsApp 消息发送](tools/whatsapp-integration.md) | message 工具 | WhatsApp Business API |
@@ -109,35 +115,40 @@
 
 ---
 
-### ⚙️ 自动化 (2 个)
+### ⚙️ 自动化 (4 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [博客/RSS 监控更新](automation/blog-watcher.md) | blogwatcher 技能 | Go 安装 |
 | [自动更新 OpenClaw 和技能](automation/auto-updater.md) | auto-updater 技能 | ClawHub |
+| [监控告警](automation/alert-monitoring.md) | healthcheck 技能 | 系统安全审计 |
+| [定时备份](automation/scheduled-backup.md) | rsync + cron | 文件、数据库备份 |
 
 ---
 
-### 👤 个人助理 (3 个)
+### 👤 个人助理 (5 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [每日总结报告生成](personal-assistant/daily-summary-report.md) | OpenClaw 会话记录 | 用户真实需求 |
 | [会议纪要自动生成](personal-assistant/meeting-minutes.md) | OpenClaw + 飞书 | 真实工作流 |
 | [邮件草稿生成](personal-assistant/email-draft.md) | OpenClaw + himalaya | 商务邮件 |
+| [习惯追踪](personal-assistant/habit-tracking.md) | apple-reminders + things-mac | 每日习惯管理 |
+| [目标管理](personal-assistant/goal-management.md) | things-mac 技能 | SMART/OKR 目标管理 |
 
 ---
 
-### 📊 数据分析 (2 个)
+### 📊 数据分析 (3 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [日志分析](data-analysis/log-analysis.md) | exec + jq | 内置工具 |
 | [数据报告生成](data-analysis/data-report.md) | exec + jq + gemini | CSV/JSON 分析 |
+| [数据清洗](data-analysis/data-cleaning.md) | jq + sed/awk | 缺失值、去重、格式化 |
 
 ---
 
-### 📚 学习辅助 (4 个)
+### 📚 学习辅助 (7 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
@@ -145,6 +156,9 @@
 | [有意思的 SOUL.md 收录](learning/interesting-soul-collection.md) | 5 个真实 SOUL.md | 产品经理、开发者、镜子、分析师、通用助理 |
 | [创建每日自动写日记的 Agent](learning/mirror-agent-diary.md) | workspace-mirror | 真实运行的日记 Agent |
 | [代码学习与理解](learning/code-learning.md) | OpenClaw read/exec | 内置工具 |
+| [论文/文章摘要生成](learning/paper-summary.md) | summarize 技能 | URL、PDF、YouTube 总结 |
+| [笔记整理与知识管理](learning/note-organize.md) | obsidian-cli 技能 | Obsidian 自动化 |
+| [创建不同角色的 Agent](learning/create-agent-roles.md) | SOUL.md 塑造 | PM、开发者、日记等角色 |
 
 ---
 
@@ -170,7 +184,7 @@
 
 ## 草稿目录
 
-`draft/inspiration/` 存放了约 20 个**待补充真实来源**的案例草稿。
+`draft/inspiration/` 存放了约 41 个**待补充真实来源**的案例草稿。
 
 这些草稿目前缺少真实开源项目或技能文档引用，未来找到真实来源后会迁移到正式目录。
 
@@ -194,8 +208,8 @@
 
 ## 统计
 
-- **真实案例**：51 个（不含模板文件）
-- **草稿**：20 个
+- **真实案例**：63 个（不含模板文件）
+- **草稿**：41 个
 - **更新时间**：2026-03-25
 
 ---
