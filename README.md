@@ -15,7 +15,7 @@
 
 ## 快速导航
 
-### ✍️ 内容创作 (1 个完整工作流 + 1 个案例)
+### ✍️ 内容创作 (1 个完整工作流 + 5 个案例)
 
 #### Agent Teams 自动写小说
 基于 GitHub 开源项目整理的完整多 Agent 小说写作工作流：
@@ -32,6 +32,10 @@
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [翻译与多语言内容](content-creation/translation.md) | gemini 技能 | 内容翻译、多语言适配 |
+| [视频脚本生成](content-creation/video-script.md) | OpenClaw + tts | 短视频、教学视频脚本 |
+| [播客脚本生成](content-creation/podcast-script.md) | OpenClaw + tts | 单口、访谈播客脚本 |
+| [长文写作](content-creation/long-form-writing.md) | OpenClaw + gemini | 技术文章、分析报告 |
+| [SEO 优化内容](content-creation/seo-optimization.md) | OpenClaw + web_search | SEO 标题、描述、内容优化 |
 
 ---
 
@@ -59,7 +63,7 @@
 
 ---
 
-### 🔧 工具集成 (13 个)
+### 🔧 工具集成 (14 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
@@ -74,6 +78,7 @@
 | [Slack 消息发送](tools/slack-integration.md) | slack 技能 | Slack Bot |
 | [Twitter/X 发推集成](tools/twitter-integration.md) | xurl 技能 | X API v2 |
 | [Discord 机器人集成](tools/discord-integration.md) | discord 技能 | Discord Bot |
+| [Telegram 机器人集成](tools/telegram-integration.md) | message 工具 | Telegram Bot API |
 | [天气查询](tools/weather-query.md) | weather 技能 | wttr.in |
 | [邮件管理](tools/email-management.md) | himalaya 技能 | IMAP/SMTP |
 | [Trello 卡片管理](tools/trello-integration.md) | trello 技能 | Trello REST API |
@@ -89,20 +94,22 @@
 
 ---
 
-### 👤 个人助理 (2 个)
+### 👤 个人助理 (3 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [每日总结报告生成](personal-assistant/daily-summary-report.md) | OpenClaw 会话记录 | 用户真实需求 |
 | [会议纪要自动生成](personal-assistant/meeting-minutes.md) | OpenClaw + 飞书 | 真实工作流 |
+| [邮件草稿生成](personal-assistant/email-draft.md) | OpenClaw + himalaya | 商务邮件 |
 
 ---
 
-### 📊 数据分析 (1 个)
+### 📊 数据分析 (2 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [日志分析](data-analysis/log-analysis.md) | exec + jq | 内置工具 |
+| [数据报告生成](data-analysis/data-report.md) | exec + jq + gemini | CSV/JSON 分析 |
 
 ---
 
@@ -139,7 +146,7 @@
 
 ## 草稿目录
 
-`draft/inspiration/` 存放了约 32 个**待补充真实来源**的案例草稿。
+`draft/inspiration/` 存放了约 25 个**待补充真实来源**的案例草稿。
 
 这些草稿目前缺少真实开源项目或技能文档引用，未来找到真实来源后会迁移到正式目录。
 
@@ -163,8 +170,8 @@
 
 ## 统计
 
-- **真实案例**：36 个（不含模板文件）
-- **草稿**：32 个
+- **真实案例**：43 个（不含模板文件）
+- **草稿**：25 个
 - **更新时间**：2026-03-25
 
 ---
