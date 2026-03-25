@@ -15,7 +15,7 @@
 
 ## 快速导航
 
-### ✍️ 内容创作 (1 个完整工作流)
+### ✍️ 内容创作 (1 个完整工作流 + 1 个案例)
 
 #### Agent Teams 自动写小说
 基于 GitHub 开源项目整理的完整多 Agent 小说写作工作流：
@@ -27,6 +27,11 @@
 | [Prompt 模板](content-creation/prompts/chapter-planner.md) | 章节规划、正文写作、人物审查、连续性审查 |
 | [输出模板](content-creation/templates/outline-template.md) | 大纲、审查、状态回写模板 |
 | [总控编排](content-creation/orchestrator/novel-master-agent.md) | 主 Agent 调度流程 |
+
+#### 其他
+| 案例 | 来源 | 说明 |
+|------|------|------|
+| [翻译与多语言内容](content-creation/translation.md) | gemini 技能 | 内容翻译、多语言适配 |
 
 ---
 
@@ -54,7 +59,7 @@
 
 ---
 
-### 🔧 工具集成 (7 个)
+### 🔧 工具集成 (13 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
@@ -65,14 +70,22 @@
 | [Apple Notes 笔记操作](tools/apple-notes-integration.md) | apple-notes 技能 | macOS 专属 |
 | [Apple Reminders 任务管理](tools/apple-reminders-integration.md) | apple-reminders 技能 | macOS 专属 |
 | [Things 3 任务管理](tools/things-integration.md) | things-mac 技能 | macOS 专属 |
+| [Notion 笔记操作](tools/notion-integration.md) | notion 技能 | Notion API |
+| [Slack 消息发送](tools/slack-integration.md) | slack 技能 | Slack Bot |
+| [Twitter/X 发推集成](tools/twitter-integration.md) | xurl 技能 | X API v2 |
+| [Discord 机器人集成](tools/discord-integration.md) | discord 技能 | Discord Bot |
+| [天气查询](tools/weather-query.md) | weather 技能 | wttr.in |
+| [邮件管理](tools/email-management.md) | himalaya 技能 | IMAP/SMTP |
+| [Trello 卡片管理](tools/trello-integration.md) | trello 技能 | Trello REST API |
 
 ---
 
-### ⚙️ 自动化 (1 个)
+### ⚙️ 自动化 (2 个)
 
 | 案例 | 来源 | 说明 |
 |------|------|------|
 | [博客/RSS 监控更新](automation/blog-watcher.md) | blogwatcher 技能 | Go 安装 |
+| [自动更新 OpenClaw 和技能](automation/auto-updater.md) | auto-updater 技能 | ClawHub |
 
 ---
 
@@ -126,7 +139,7 @@
 
 ## 草稿目录
 
-`draft/inspiration/` 存放了约 41 个**待补充真实来源**的案例草稿。
+`draft/inspiration/` 存放了约 32 个**待补充真实来源**的案例草稿。
 
 这些草稿目前缺少真实开源项目或技能文档引用，未来找到真实来源后会迁移到正式目录。
 
@@ -150,8 +163,8 @@
 
 ## 统计
 
-- **真实案例**：27 个（不含模板文件）
-- **草稿**：41 个
+- **真实案例**：36 个（不含模板文件）
+- **草稿**：32 个
 - **更新时间**：2026-03-25
 
 ---
